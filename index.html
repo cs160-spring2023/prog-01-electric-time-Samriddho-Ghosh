@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Fastrack</h1>
+      <p >Select the mode of transport and input the distance to calculate the time taken:</p>
+      <select id="mode">
+        <option  value="Walking">Walking</option>
+        <option value="Boosted Mini S Board">Boosted Mini S Board</option>
+        <option value="Evolve Bamboo GTR 2in">Evolve Bamboo GTR 2in1</option>
+        <option value="OneWheel XR">OneWheel XR</option>
+        <option value="MotoTec Skateboard">MotoTec Skateboard</option>
+        <option value="Segway Ninebot S">Segway Ninebot S</option>
+        <option value="Segway Ninebot S-PLUS">Segway Ninebot S-PLUS</option>
+        <option value="Razor Scooter">Razor Scooter</option>
+        <option value="GeoBlade 500">GeoBlade 500</option>
+        <option value="Hovertrax Hoverboard">Hovertrax Hoverboard</option>
+      </select>
+      <input style="margin:20px; type="text" id="distance" placeholder="Enter distance in miles">
+      <button style="margin:4px;"onclick="calculateTime()">Calculate Time</button>
+      <p id="output"></p>
+      <p style="color:blue" id="output2"></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
