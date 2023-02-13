@@ -1,0 +1,29 @@
+body {
+  font-family: Arial;
+  background-image: url(https://static.vecteezy.com/system/resources/previews/000/682/277/non_2x/rainbow-gradient-blurred-wallpaper.jpg);
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 50px;
+  margin: 44px 344px;
+}
+
+
+h1 {
+  color: #013060;
+}
+
+#output {
+  color: #000000;
+  margin-top: 20px;
+}
+html, body {
+  height: 100%;
+  width: 100%;
+}
